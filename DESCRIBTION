@@ -1,0 +1,17 @@
+HOME PAGE:
+
+search item
+click item link
+
+ITEM PAGE:
+display item
+place bid (+,- sigh)
+
+WIN AUCTION PAGE:
+display user has won item
+
+AUCTION ENDED:
+display user missed auction
+
+
+makemigrations IHOB
