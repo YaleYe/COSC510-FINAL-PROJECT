@@ -237,7 +237,7 @@ def productPage(request, productID):
             # bid successful, update database
             Product.objects.filter(productID=productID).update(price=newBid,
                                                                currentHolder=currentBidder)
-            return render(request, bidPageHtml, context)
+            return redirect(productPage, productID)
     else:
         return render(request, bidPageHtml, context)
 

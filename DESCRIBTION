@@ -1,17 +1,6 @@
-HOME PAGE:
+HOW TO LAUNCH APP:
 
-search item
-click item link
+cd into COSC510FINAl FOLDER
 
-ITEM PAGE:
-display item
-place bid (+,- sigh)
-
-WIN AUCTION PAGE:
-display user has won item
-
-AUCTION ENDED:
-display user missed auction
-
-
-makemigrations IHOB
+in command window type:
+    python manage.py runserver
